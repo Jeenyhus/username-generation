@@ -13,7 +13,7 @@ with open('data.csv', 'r') as file:
         gender = row['gender']
         grade = row['grade']
 
-        username = first_name[0] + last_name[0:5] + year_of_birth[-2:] + centre[0:3] + gender[0]
+        username = first_name[0] + last_name[0:4] + year_of_birth[-2:] + centre[0:2] + gender[0]
 
         username_list.append(username)
 
