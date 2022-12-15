@@ -1,4 +1,4 @@
-# uses csv module to read the file and create the username_list.
+# uses csv module to read the file and create the username_list
 import csv
 
 username_list = []
